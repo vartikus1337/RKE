@@ -1,0 +1,10 @@
+.leftcolumn {
+    width: 33%;
+}
+.rightcolumn {
+    width: 33%;
+}
+.centercolumn {
+    width: 33%;
+    padding: 0;
+}
