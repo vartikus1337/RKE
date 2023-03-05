@@ -1,7 +1,12 @@
-.leftcolumn, .centercolumn {
-    width: 40%;
+.leftcolumn, .centercolumn  {
+    width: 49%;
+}
+
+.centercolumn {
+    margin-left: 1%;
 }
 
 .rightcolumn {
-    width: 40%;
+    width: 49%;
+    margin-left: -2%;
 }
