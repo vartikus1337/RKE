@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests</title>
+    <style>
+        body * + * { padding-top: 1.5em;}
+        .block { display: block; color: red;}
+        .block-inline {display: inline-block; color: green; margin-left: .5em;}
+        ul {display: table; padding-left: 0;}
+        li {display: table-cell; padding-left: .5em;}
+    </style>
+</head>
+<body>
+    <div>Это <span>строчный</span> элемент</div>
+    <div>Это <span class="block">блочный</span> элемент</div>
+    <div>Это <span class="block-inline">блочный строчный</span> элемент</div>
+    <ul>
+        <li>elem 1</li>
+        <li>elem 2</li>
+    </ul>
+</body>
+</html>
